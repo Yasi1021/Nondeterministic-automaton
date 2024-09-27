@@ -9,6 +9,9 @@
 #include "fileManager.h"
 #include "tests.h";
 
+int lastInd = 0;
+extern std::vector<class Automat *> Automats;
+
 int main()
 {
     TestDeterministic();
