@@ -1,6 +1,3 @@
-int lastInd = 0;
-extern std::vector<class Automat *> Automats;
-
 class Automat
 {
 public:
